@@ -1,32 +1,36 @@
-import { Product } from './models';
+import { Product } from "./models";
 
 export const shopData: Product[] = [
   {
     id: 1,
-    name: 'Shoes',
+    name: "Hoodie",
     price: 400,
     imageUrl:
-      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80',
+      "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/435102/item/goods_09_435102.jpg?width=1600&impolicy=quality_75",
+    quantity: 1,
   },
   {
     id: 2,
-    name: 'Jacket',
+    name: "Tank Top",
     price: 100,
     imageUrl:
-      'https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+      "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444529/item/goods_31_444529.jpg?width=1600&impolicy=quality_75",
+    quantity: 1,
   },
   {
     id: 3,
-    name: 'Jeans',
-    price: 200,
+    name: "Jacket",
+    price: 800,
     imageUrl:
-      'https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+      "https://4.imimg.com/data4/RU/VC/MY-11853389/men-s-jackets-500x500.jpg",
+    quantity: 1,
   },
   {
     id: 4,
-    name: 'Beanie',
-    price: 50,
+    name: "Blazer",
+    price: 1000,
     imageUrl:
-      'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80',
+      "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/425423/item/goods_69_425423.jpg?width=1600&impolicy=quality_75",
+    quantity: 1,
   },
 ];

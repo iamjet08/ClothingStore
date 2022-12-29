@@ -1,1 +1,1 @@
-# ClothingStore
+# React exercise Clothing Shop
